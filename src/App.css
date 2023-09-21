@@ -1,0 +1,69 @@
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  margin-top: 100px;
+  width: 350px;
+  height: auto;
+}
+#welcome {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.image {
+  width: 400px;
+  object-fit: cover;
+  height: 300px;
+}
+.span {
+  color: red;
+}
+.list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.backbutton {
+  margin-bottom: 100px;
+}
+.userdetail {
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+}
+.userimg {
+  width: 500px;
+  object-fit: cover;
+  padding: 0px;
+  height: 300px;
+}
+.span1 {
+  color: blue;
+  margin-left: 10px;
+}
+body {
+  margin: 0;
+}
+.detail {
+  display: grid;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.button {
+  position: relative;
+  bottom: 350px;
+}
